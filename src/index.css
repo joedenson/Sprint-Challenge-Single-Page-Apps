@@ -37,3 +37,22 @@ main {
 header h1 {
   text-align: center;
 }
+
+.character-list a{
+  text-decoration: none;
+  
+}
+
+.character-card{
+margin-bottom: 5%;
+max-width: 300px;
+max-height: 300px;
+border: 1px solid green;
+padding: 2%;
+text-align: center;
+
+}
+
+.character-name, .character-status, .character-species{
+  margin-bottom: 2%;
+}
