@@ -38,22 +38,35 @@ header h1 {
   text-align: center;
 }
 
+
+.character-list{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+
+}
+
 .character-list a{
   text-decoration: none;
   
 }
 
-.character-card{
-margin-top: 7%;
-max-width: 300px;
-max-height: 300px;
-border: 1px solid green;
-padding: 2%;
-text-align: center;
+ 
 
+.character-card{
+margin-top: 20%;
+max-width: 400px;
+max-height: 600px;
+border: 1px solid purple;
+text-align: center;
+color: whitesmoke;
+background: green;
+  
+  box-shadow: 5px 10px purple;
 }
 
-.character-name, .character-status, .character-species{
+.character-name, .character-status, .character-species, .character-gender{
   margin-bottom: 2%;
 }
 
@@ -61,4 +74,9 @@ text-align: center;
   margin-top: 2%;
   width: 120px;
   text-decoration: none;
+}
+
+.search-form{
+  color: purple;
+  margin-left: 35%;
 }

@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { withFormik, Form, Field } from "formik";
-import Yup from 'yup';
 import axios from 'axios';
-import CharacterList from './CharacterList';
+
 
 function SearchForm({ props, values, status }) {
 
@@ -19,7 +18,6 @@ function SearchForm({ props, values, status }) {
       <Form>
         <label>Search Characters: </label>
         <Field type="text" name="search" placeholder="Search... " />
-        <button type="submit">Submit</button>
       </Form>
 
       {characters.map(character => (

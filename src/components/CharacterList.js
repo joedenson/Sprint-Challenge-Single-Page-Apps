@@ -39,7 +39,9 @@ export default function CharacterList() {
             <Link to={`/characters/${character.id}`} className="link">
               <CharacterCard
                 key={character.id}
+                image={character.image}
                 name={character.name}
+                gender={character.gender}
                 status={character.status}
                 species={character.species}
                 type={character.type}
