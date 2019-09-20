@@ -30,9 +30,12 @@ export default function CharacterList() {
 
   return (
     <section className="character-list">
+
       {characters.map(character => {
         return (
+
           <div className="save-wrapper" key={character.id}>
+
             <Link to={`/characters/${character.id}`} className="link">
               <CharacterCard
                 key={character.id}

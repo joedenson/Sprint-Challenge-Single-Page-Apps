@@ -44,7 +44,7 @@ header h1 {
 }
 
 .character-card{
-margin-bottom: 5%;
+margin-top: 7%;
 max-width: 300px;
 max-height: 300px;
 border: 1px solid green;
@@ -55,4 +55,10 @@ text-align: center;
 
 .character-name, .character-status, .character-species{
   margin-bottom: 2%;
+}
+
+.welcome-page-link a{
+  margin-top: 2%;
+  width: 120px;
+  text-decoration: none;
 }
